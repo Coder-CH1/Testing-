@@ -1,14 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_test/flutter_test.dart';
+//import 'package:flutter_test/flutter_test.dart';
 
-class Test extends StatefulWidget {
+class Test extends StatelessWidget {
   const Test({Key? key}) : super(key: key);
 
-  @override
-  State<Test> createState() => _TestState();
-}
-
-class _TestState extends State<Test> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -33,8 +28,3 @@ class _TestState extends State<Test> {
   }
 }
 
-void main() {
-  testWidgets('', (widgetTester) async {
-
-  });
-}
