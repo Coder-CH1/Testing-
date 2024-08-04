@@ -12,9 +12,29 @@ class _TestState extends State<Test> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(
-        child: Text('Hello, Nigeria, Testing! Testing!'),
+      body: Column(
+        children: [
+          Container(
+            color: Colors.brown,
+            child: Padding(
+              padding: const EdgeInsets.only(top: 70, left: 20, bottom: 10),
+              child: Text('Hello, World, Testing! Testing!',
+                  style: TextStyle(
+                    fontSize: 30,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.black87,
+                  )
+              ),
+            ),
+          ),
+        ],
       ),
     );
   }
+}
+
+void main() {
+  testWidgets('', (widgetTester) async {
+
+  });
 }
