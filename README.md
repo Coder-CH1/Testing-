@@ -3,8 +3,8 @@
 
 ### _FEATURES_
 
- - _Unit Testing_
+ - Unit Testing
 
- - _Widget Testing_
+ - Widget Testing
 
- - _Integration Testing_
+ - Integration Testing
