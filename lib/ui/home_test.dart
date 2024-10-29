@@ -11,8 +11,8 @@ class Test extends StatelessWidget {
         children: [
           Container(
             color: Colors.brown,
-            child: Padding(
-              padding: const EdgeInsets.only(top: 70, left: 20, bottom: 10),
+            child: const Padding(
+              padding: EdgeInsets.only(top: 70, left: 20, bottom: 10),
               child: Text('Hello, World, Testing! Testing!',
                   style: TextStyle(
                     fontSize: 30,
