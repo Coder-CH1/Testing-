@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'home_test.dart';
+import 'package:testing/ui/home_test.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +13,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Test(),
+      home: Home(),
     );
   }
 }
+
